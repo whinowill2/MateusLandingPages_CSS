@@ -1,0 +1,459 @@
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  color: #007aff;
+  font-size: 24pt;
+  animation: fadeInUp 0.9s ease-out forwards;
+  margin-top: 20px;
+}
+
+.title-hero {
+  font-family: "Montserrat", sans-serif;
+  color: #007aff;
+  font-size: 24pt;
+  animation: fadeInUp 0.9s ease-out forwards;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.cards-container-2 {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-2 {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  animation: fadeInUp 0.9s ease-out forwards;
+}
+
+.card-2:nth-child(1) { animation-delay: 0.5s; }
+.card-2:nth-child(2) { animation-delay: 0.6s; }
+.card-2:nth-child(3) { animation-delay: 0.7s; }
+.card-2:nth-child(4) { animation-delay: 0.8s; }
+.card-2:nth-child(5) { animation-delay: 0.9s; }
+
+
+.card-icon-wrapper-2 {
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+      justify-content: center;
+}
+
+ .banner--maintain-aspect-ratio {
+      width: 50%;
+  }
+
+#banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-icon-2 {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.6s ease;
+  align-items: center;
+}
+
+.card-2:hover .card-icon-2 {
+  transform: scale(1.1);
+}
+
+.card-title-2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007aff;
+}
+
+.navbar-toggler-icon {
+    display: none;
+}
+
+.card-description-2 {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.container-geral-2 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.imagem-de-cartao-2 {
+  margin-bottom: 24px;
+}
+
+.imagem-de-cartao-2 img {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.botao-loja-2 {
+  display: inline-block;
+  background-color: #00BD6F;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  transition: all 0.3s ease; 
+  opacity: 0;
+  animation: fadeInUp 0.9s 0.9s ease-out forwards;
+}
+
+.botao-loja-2:hover {
+  background-color: #10784D;
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hero-2,
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-3 {
+  display: flex;
+}
+
+.hero img {
+  width: 270px;
+  height: 100%;
+}
+
+.hero-2 img {
+  width: 318px;
+  height: 450px;
+}
+
+.secao-cartao-3 {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.titulo-secao-3 {
+  font-family: "Montserrat", sans-serif;
+  color: #007aff;
+  font-size: 24pt;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.grid-cartoes-3 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.card-item-3 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 18px;
+  align-items: center;
+  background-color: #007aff;
+  color: #ffffff;
+  padding: 20px;
+  padding-top: 40px;
+  width: 230px;
+  height: 230px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  min-height: 150px;
+  min-width: 150px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.container-lg {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-lg h1 {
+    font-family: "Montserrat", sans-serif;
+     color: #007aff;
+  font-size: 24pt;
+  font-weight: 800;
+  margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+.p-0 p {
+    font-family: "Montserrat", sans-serif;
+     color: #000000;
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.card-item-3:nth-child(1) { animation-delay: 0.6s; }
+.card-item-3:nth-child(2) { animation-delay: 0.7s; }
+.card-item-3:nth-child(3) { animation-delay: 0.8s; }
+.card-item-3:nth-child(4) { animation-delay: 0.9s; }
+
+
+.card-item-3:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 102, 255, 0.3);
+}
+
+.card-icone-3 img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+.card-item-3:hover .card-icone-3 img {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.botao-tarifas-3 {
+  display: inline-block;
+  background-color: #00BD6F;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  margin-top: 25px;
+  transition: all 0.3s ease; 
+  opacity: 0;
+  animation: fadeInUp 0.8s 0.6s ease-out forwards;
+}
+
+.botao-tarifas-3:hover {
+  background-color: #10784D;
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.footer-1 {
+    background-color: #007bff; 
+    color: #ffffff;
+    padding: 30px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-1-container {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px; 
+    min-width: 1200px;
+}
+
+.footer-1-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer-1-logo img {
+    height: 50px; 
+    display: block;
+}
+
+.footer-1-text p {
+    margin: 4px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.footer-1-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.baixe-nosso-app {
+        font-size: 12px;
+}
+
+.footer-1-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-1-button:hover {
+    opacity: 0.8;
+}
+
+.footer-1-button img {
+    width: 25px;
+    height: 25px;
+}
+
+
+@media (max-width: 850px) {
+  
+  .grid-cartoes-3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
+  }
+  
+  .card-2 {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .card-icon-wrapper-2 {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  
+  .imagem-de-cartao-2 {
+    display: none;
+  }
+
+  .titulo-secao-3,
+  .title {
+    font-size: 16pt;
+  }
+  
+  .title-hero {
+      font-size: 18pt;
+  }
+  
+  .hero-3 {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-3,
+  .hero-2 {
+      margin-top: 30px;
+  }
+  
+  .hero-2 img {
+    width: 200px;
+    height: 100%;
+  }
+  
+  .hero img {
+    /*width: 80px;
+    height: 100%;*/
+    display: none;
+  }
+
+  .card-item-3 {
+    width: 100%; 
+    height: auto;
+    min-height: 180px; 
+    font-size: 1rem;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .p3 {
+    display: none;
+  }
+  
+  .banner--maintain-aspect-ratio {
+      width: 100%;
+  }
+  
+   .footer-1-container {
+        flex-direction: column; 
+        text-align: center;
+        min-width: 200px;
+    }
+
+    .footer-1-info {
+        flex-direction: column; 
+        gap: 15px;
+        align-items: center;
+    }
+
+    .footer-1-buttons {
+        flex-direction: column;
+        width: 100%;
+       font-size: 18px;
+       min-width: 250px;
+    }
+    
+    .footer-1-button img {
+    width: 35px;
+    height: 35px;
+}
+
+.baixe-nosso-app {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+    .footer-1-button {
+        width: 100%;
+        box-sizing: border-box; 
+    }
+}
