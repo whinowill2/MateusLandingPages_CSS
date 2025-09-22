@@ -25,3 +25,7 @@
        document.querySelectorAll('a[href="#duvidas-frequentes"]').forEach(anchor => {
         anchor.addEventListener('click', scrollToSection);
     });
+
+   document.querySelectorAll('a[href="#vantagens"]').forEach(anchor => {
+        anchor.addEventListener('click', scrollToSection);
+    });
