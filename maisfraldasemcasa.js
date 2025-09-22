@@ -21,4 +21,3 @@
 
     document.addEventListener('DOMContentLoaded', atualizarBanner);
     window.addEventListener('resize', atualizarBanner);
-</script>
