@@ -79,8 +79,7 @@ flex-wrap: nowrap !important;
 }
 
 .footer-1 {
-    background-color: #007bff; 
-    color: #ffffff;
+    color: #5FB4E5;
     padding: 30px 20px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -91,7 +90,6 @@ flex-wrap: nowrap !important;
     justify-content: space-between;
     align-items: center;
     gap: 50px; 
-    min-width: 1200px;
 }
 
 .footer-1-info {
@@ -130,9 +128,9 @@ flex-wrap: nowrap !important;
     justify-content: center;
     gap: 10px;
     padding: 10px 20px;
-    border: 1px solid #ffffff;
+    border: 1px solid #5FB4E5;
     border-radius: 8px;
-    color: #ffffff;
+    color: #5FB4E5;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -154,7 +152,7 @@ flex-wrap: nowrap !important;
    .footer-1-container {
         flex-direction: column; 
         text-align: center;
-        min-width: 200px;
+        max-width: 500px;
     }
 
     .footer-1-info {
