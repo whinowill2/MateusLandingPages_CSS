@@ -17,8 +17,8 @@
         font-family: "Bree Serif", serif;
         color: #FF1F5F;
         text-shadow: 1px 1px 3px black;
-        text-align: justify;
-        text-size: 30px;
+        text-align: left;
+        font-size: 1.8em;
     }
     
     .hero-title p {
@@ -157,7 +157,14 @@ flex-wrap: nowrap !important;
 }
 
 @media (max-width: 850px) {
-  
+   .hero-title h1 {
+        text-align: center;
+    }
+    
+    .hero-title p {
+      text-align: center;
+    }
+    
    .footer-1-container {
         flex-direction: column; 
         text-align: center;
