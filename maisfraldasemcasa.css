@@ -1,8 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .cta-title-539d7abc-a3fb-41e2-9a86-9250205b7d39 h1 {
     display: none;
 }
+
+.hero-title {
+    max-width: 500px;
+}
+    .hero-title img {
+        width: 250px;
+    }
+    
+    .hero-title h1 {
+        font-family: "Bree Serif", serif;
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        text-align: justify;
+    }
+    
+    .hero-title p {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      color: white;
+      text-shadow: 1px 1px 3px black;
+      text-align: justify;
+    }
 
 body {
   font-family: "Bree Serif", serif;
