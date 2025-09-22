@@ -74,8 +74,8 @@ body {
       width: 150px;
 }
 
-.navbar>.container-lg {
-flex-wrap: nowrap;
+.navbar .container-lg {
+flex-wrap: nowrap !important;
 }
 
  @media (max-width: 650px) {
