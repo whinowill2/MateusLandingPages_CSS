@@ -74,7 +74,7 @@ body {
       width: 150px;
 }
 
-.container-lg {
+.navbar>.container-lg {
 flex-wrap: nowrap;
 }
 
