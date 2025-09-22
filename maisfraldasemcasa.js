@@ -21,3 +21,7 @@
 
     document.addEventListener('DOMContentLoaded', atualizarBanner);
     window.addEventListener('resize', atualizarBanner);
+
+       document.querySelectorAll('a[href="#duvidas-frequentes"]').forEach(anchor => {
+        anchor.addEventListener('click', scrollToSection);
+    });
