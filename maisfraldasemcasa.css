@@ -153,6 +153,7 @@ flex-wrap: nowrap !important;
 .banner--background-image {
     width: auto;
     height: 100%;
+}
 
 @media (max-width: 850px) {
   
