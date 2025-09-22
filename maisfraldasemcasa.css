@@ -63,3 +63,15 @@ body {
     top: 0 !important;
     bottom: 0 !important;
 }
+
+.hero-title-img-mobile {
+       display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+ @media (max-width: 650px) {
+        .hero-title-img-mobile {
+       display: flex;
+}
+    }
