@@ -70,6 +70,10 @@ body {
     justify-content: center;
 }
 
+.hero-title-img-mobile img {
+      width: 200px;
+}
+
  @media (max-width: 650px) {
         .hero-title-img-mobile {
        display: flex;
