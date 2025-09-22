@@ -103,7 +103,8 @@ flex-wrap: nowrap !important;
 }
 
 .footer-1-logo img {
-    height: 50px; 
+    height: 80px;
+    width: 100%;
     display: block;
 }
 
