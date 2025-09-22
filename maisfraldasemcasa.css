@@ -74,6 +74,10 @@ body {
 flex-wrap: nowrap !important;
 }
 
+.section-image img {
+    width: 80%;
+}
+
  @media (max-width: 650px) {
         .hero-title-img-mobile {
        display: flex;
