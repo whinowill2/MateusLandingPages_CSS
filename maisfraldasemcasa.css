@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bree+Serif&display=swap');
+
+.cta-title-539d7abc-a3fb-41e2-9a86-9250205b7d39 h1 {
+    display: none;
+}
+
+body {
+  font-family: "Bree Serif", serif;
+}
+
+.title-hero {
+  font-family: "Bree Serif", serif;
+  color: #FF2E61;
+  font-size: 24pt;
+  animation: fadeInUp 0.9s ease-out forwards;
+  margin-top: 20px;
+}
+
+.text-hero {
+  font-family: "Bree Serif", serif;
+}
+
+.py-4 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 50px;
+}
+
+.principal-form-field {
+    border: 1px solid #0097FF !important;
+    color: #595C5F;
+}
+
+.principal-form-label {
+    color: #B1B1B1;
+}
