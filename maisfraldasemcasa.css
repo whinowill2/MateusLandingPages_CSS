@@ -170,6 +170,9 @@ flex-wrap: nowrap !important;
     height: 100%;
 }
 
+#logo-mateus {
+  height: 30px; margin-bottom: 5px; }
+
 @media (max-width: 850px) {
    .hero-title h1 {
        display: none;
