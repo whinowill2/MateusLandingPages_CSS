@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bree+Serif&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
@@ -111,7 +111,7 @@ flex-wrap: nowrap !important;
 
 .footer-1-logo img {
     height: 80px;
-    width: 100%;
+    width: auto;
     display: block;
 }
 
@@ -148,6 +148,12 @@ flex-wrap: nowrap !important;
 
 .footer-1-button:hover {
     opacity: 0.8;
+}
+
+.footer-1-logos {
+    display: flex; 
+    gap: 15px; 
+    align-items: flex-end;
 }
 
 .footer-1-button img {
@@ -201,6 +207,10 @@ flex-wrap: nowrap !important;
     .footer-1-button img {
     width: 35px;
     height: 35px;
+}
+
+.footer-1-logos {
+    align-items: center;
 }
 
 .baixe-nosso-app {
