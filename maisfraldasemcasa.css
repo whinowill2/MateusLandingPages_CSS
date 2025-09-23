@@ -214,6 +214,7 @@ flex-wrap: nowrap !important;
 
 .footer-1-logos {
     align-items: center;
+  flex-direction: column;
 }
 
 .baixe-nosso-app {
