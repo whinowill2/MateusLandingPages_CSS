@@ -46,7 +46,7 @@ body {
     padding: 10px 25px; 
     width: 80%;
     max-width: 300px;
-    background-color: #FF2E61;
+    background-color: #25d366;
     border: none; 
     margin-top: 15px;
     color: white;
@@ -59,7 +59,7 @@ body {
 }
 
 .agradecimento-btn:hover {
-    background-color: #25d366; 
+    background-color: #FF2E61; 
 }
 
 .agradecimento-btn img {
